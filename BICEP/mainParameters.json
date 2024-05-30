@@ -1,0 +1,132 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "AzTenantID": {
+            "value": ""
+        },
+        "artifactsLocation": {
+            "value": "" 
+        },
+        "AVDResourceGroup": {
+            "value": "rg-demo-avd" 
+        },
+        "workspaceLocation": {
+            "value": "francecentral" 
+        },
+        "tokenExpirationTime": {
+            "value": "2025-05-30T00:00:01Z"
+        },
+        "ouPath": {
+            "value": "OU=AVD,OU=Servers,DC=cnous,DC=fr"
+        },
+        "domain": {
+            "value": "lescrous.fr"
+        },
+        "newBuild": {
+            "value": true
+        },
+        "administratorAccountUserName": {
+            "value": "adminuser"
+        },
+        "administratorAccountPassword": {
+            "value": "adminuser"
+        },
+        "hostPoolType": {
+            "value": "Pooled"
+        },
+        "hostPoolName": {
+            "value": "Demo AVD HostPool"
+        },
+        "personalDesktopAssignmentType": {
+            "value": "Direct"
+        },
+        "maxSessionLimit": {
+            "value": 10
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "customRdpProperty": {
+            "value": "audiocapturemode:i:1;audiomode:i:0;camerastoredirect:s:*;devicestoredirect:s:*;drivestoredirect:s:;redirectclipboard:i:1;redirectcomports:i:0;redirectprinters:i:1;redirectsmartcards:i:1;screen mode id:i:2" 
+        },
+        "hostPoolFriendlyName": {
+            "value": "Cnous Host Pool"
+        },
+        "workspaceName": {
+            "value": "Demo AVD Workspace"
+        },
+        "appGroupFriendlyName": {
+            "value": "Cnous Desktop (AD)"
+        },
+        "applicationGroupReferences": {
+            "value": ""
+        },
+        "desktopName": {
+            "value": "Demo AVD Desktop"
+        },
+        "defaultUsers": {
+            "value": "" 
+        },
+        "appID": {
+            "value": "" 
+        },
+        "appSecret": {
+            "value": ""
+        },
+        "vmResourceGroup": {
+            "value": "rg-demo-avd-vms"
+        },
+        "vmLocation": {
+            "value": "francecentral"
+        },
+        "vmSize": {
+            "value": "Standard_B2ms"
+        },
+        "numberOfInstances": {
+            "value": 2
+        },
+        "currentInstances": {
+            "value": 0
+        },
+        "vmPrefix": {
+            "value": "DEMO"
+        },
+        "vmDiskType": {
+            "value": "Premium_LRS"
+        },
+        "existingVNETResourceGroup": {
+            "value": "VOH-INFRASTRUCTURE"
+        },
+        "existingVNETName": {
+            "value": "VNET-NE"
+        },
+        "existingSubnetName": {
+            "value": "Backnet"
+        },
+        "sharedImageGallerySubscription": {
+            "value": ""
+        },
+        "sharedImageGalleryResourceGroup": {
+            "value": ""
+        },
+        "sharedImageGalleryName": {
+            "value": ""
+        },
+        "sharedImageGalleryDefinitionname": {
+            "value": ""
+        },
+        "sharedImageGalleryVersionName": {
+            "value": ""
+        },
+        "logworkspaceSub": {
+            "value": ""
+        },
+        "logworkspaceResourceGroup": {
+            "value": ""
+        },
+        "logworkspaceName": {
+            "value" : ""
+        }
+    }
+}
